@@ -8,7 +8,7 @@ const palindromes = function (word) {
         let reversedString = reversedLst.join("");
         return reversedString;
     }
-    if (reversed(word).toLowerCase() == word.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~() ]/g,"")){
+    if (reversed(word).toLowerCase() === word.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~() ]/g,"")){
         
         return true;
     }
